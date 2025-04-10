@@ -7,19 +7,23 @@ package com.mycompany.ChiliToGo;
  *
  * @author 22010510
  */
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 public class ChiliToGo {
- public static void main(String[] args){
-  
-     scanner scanner=new scanner(system.in);
-     System.out.print("Enter type of meal ordered");
-     int child meal=scanner.nextInt();
-     System.out.print("Enter the type of meal ordered");
-     int adult meal=scanner.nextIn();
-      System.out.printIn("Total for child meal" + childTotal);
-      System.out.printIn("Total for adult meal" + adult meal);
-      System.out.print("Total for all meals collected"+totaloverall);
-      scanner.close();
+ public static void main(String[] args) { 
+
+ String AdultMeals = JOptionPane.show.InputDialog(null,"Enter Number of Adult Meals");
+ String ChildMeals = JOptionPane.show.InputDialog(null,"Enter Number of Child Meals");
+
+ int Adult_ = Integer.parseInt(AdultMeals);
+ int Child_ = Interger.parseInt(ChildMeals);
+
+int Adult = Adult_ * 7;
+int Child = Child_ * 4;
+int Total = Adult_amount + Child_amount;
+
+JOptionPane.showMessageDialog(null,"The amount of child meal is $" + child _amount);
+JOptionPane.showMessageDialog(null,"The amount of adult meal is $"  + adult _amount);
+JOptionPane.showMessageDialog(null,"The total amount is $ + total);
       
 }
 }
